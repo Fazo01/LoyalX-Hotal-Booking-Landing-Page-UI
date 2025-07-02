@@ -15,13 +15,14 @@
   --shadow-2px:2px 2px 3px #ffffff94,inset 3px 3px 10px #ffffff39;
   --shadow-h2px:0px 0px 0px #ffffff94,inset 3px 3px 10px #ffffff39;
   --font-poppins:"Poppins",serif;
-}
+  --breakpoint-xs: 480px;
+      --breakpoint-ss: 620px;
+      --breakpoint-sm: 768px;
+      --breakpoint-md: 1060px;
+      --breakpoint-lg: 1200px;
+      --breakpoint-xl: 1700px;
+      --color-grayrgba:rgba(255, 255, 255, 0.2);
 
-.wimp{
-  width: 100% !important;
-}
-.himp{
-  height: 100vh !important;
 }
 .gradient-after::after{
   content: "";
@@ -31,4 +32,20 @@
   top: 0;
   left: 0;
   background: radial-gradient(circle, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+.Navlist::after{
+  position: absolute;
+  content: '';
+  top: 10px;
+  left: -10px;
+  transform: translateX(-50%);
+  height: 5px;
+  background-color: #fff;
+  width: 5px;
+  border-radius: 50%;
+  transition: .2s;
+}
+.Navlist:hover:after{
+  background-color:#df8033;
 }
