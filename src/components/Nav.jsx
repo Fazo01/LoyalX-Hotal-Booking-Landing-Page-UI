@@ -9,7 +9,7 @@ const Nav = () => {
   };
 
   return (
-    <div className="h-[80px] w-full flex justify-evenly items-center fixed z-50 top-0 bg-transparent px-[5%]">
+    <div className="h-[80px] w-full flex justify-evenly items-center fixed z-50 top-0 bg-[rgba(0,0,0,0.7)] px-[5%]">
 
       <div>
         <a href="#" className="text-[25px] font-bold text-[#fff]">

@@ -67,3 +67,32 @@
 .features:nth-child(2){
   margin-top: 50px;
 }
+.borderofservices{
+  border: 1px solid transparent;
+}
+.borderofservices:hover{
+  border: 1px solid #452205;
+}
+
+.borderofservices:hover i{
+  animation: Anim_shake 1s forwards linear;
+}
+  @keyframes Anim_shake{
+  0%,100%{
+    transform: translateX(0);
+  }
+  10%,30%,50%,70%{
+    transform: translateX(-10px);
+  }
+  20%,40%,60%{
+    transform: translateX(10px);
+  }
+  
+  80%{
+    transform: translateX(8px);
+  }
+  90%{
+    transform: translateX(-8px);
+  }
+}
+
