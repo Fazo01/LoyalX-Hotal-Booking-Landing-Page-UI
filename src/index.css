@@ -49,3 +49,21 @@
 .Navlist:hover:after{
   background-color:#df8033;
 }
+.features {
+  width: 200px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #9d7e54;
+  border-radius: 25px;
+  font-size: 35px;
+  line-height: 35px;
+  text-align: center;
+  font-weight: 600; /* font-semibold */
+  font-family: 'Poppins', sans-serif;
+  background-color: rgba(157, 126, 84, 0.05);
+}
+.features:nth-child(2){
+  margin-top: 50px;
+}
