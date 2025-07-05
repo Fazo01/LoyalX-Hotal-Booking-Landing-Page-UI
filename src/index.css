@@ -113,3 +113,12 @@
   border-radius: 12px;
   z-index: -1;
 }
+.swim{
+  margin-left: -100px;
+  -webkit-text-stroke: 1px #fff;
+}
+@media screen and (max-width:768px){
+  .swim{
+    margin-left: 0px;
+  }
+}
