@@ -1,10 +1,10 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
+import { Autoplay } from "swiper/modules";
 import img1 from "../assets/pool.jpg";
 import img2 from "../assets/gym.jpg";
 import img3 from "../assets/rest.jpg";
-import { Autoplay } from "swiper/modules";
 const Amenities = () => {
   return (
     <div className="p-[90px] max-[1100px]:p-[90px] max-[768px]:p-[30px]">
