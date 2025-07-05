@@ -49,6 +49,7 @@
 .Navlist:hover:after{
   background-color:#df8033;
 }
+
 .features {
   width: 200px;
   height: 100px;
@@ -122,7 +123,29 @@
     margin-left: 0px;
   }
 }
-
+/* Testinomial */
 .testi_border{
   border: 1px solid rgba(131,131,131,0.2);
+}
+
+/* Footer */
+.FooterMain{
+  margin-bottom: 12px;
+}
+.footerp{
+  margin-top: 5px;
+}
+.footerspan p{
+  font-size: 12px;
+  cursor: pointer;
+  color: rgba(131,131,131,1);
+}
+.footerspan p:hover{
+  color: white;
+}
+.footerspan span{
+  display: block;
+  font-size: 14px;
+  color: #fff;
+  margin-top: 5px;
 }
