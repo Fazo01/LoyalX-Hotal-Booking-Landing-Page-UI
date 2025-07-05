@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className='py-[90px] px-[15%] flex flex-row max-[1200px]:flex-col gap-[40px] '>
       <div className="flex width-[50%] max-[1200px]:w-[90%] items-center justify-center">
-        <img className='w-[90%] h-[90%] max-[1400px]:w-[100%] max-[1400px]:h-[80%] max-[1200px]:w-[100%] max-[1200px]:h-[100%]' src={aboutImg} alt="" />
+        <img className='w-[90vw] h-[90%] max-[1400px]:w-[100vw] max-[1400px]:h-[80%] max-[1200px]:w-[100vw] max-[1200px]:h-[100%]' src={aboutImg} alt="" />
       </div>
       <div className="width-[50%] max-[1200px]:w-[100%] flex flex-col max-[1200px]: py-[50px] px-[30px] max-[1400px]:p-0 gap-[15px] text-[#1e1e1e]">
         <small className='text-[20px] font-semibold text-[#1e1e1e]'>The Royal Hotel</small>
